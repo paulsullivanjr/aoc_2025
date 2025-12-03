@@ -1,5 +1,5 @@
-import day1/part1
+import day1/part2
 
 pub fn main() -> Nil {
-  part1.main()
+  part2.main()
 }
