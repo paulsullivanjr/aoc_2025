@@ -1,5 +1,5 @@
-import gleam/io
+import day1/part1
 
 pub fn main() -> Nil {
-  io.println("Hello from advent_of_code!")
+  part1.main()
 }
