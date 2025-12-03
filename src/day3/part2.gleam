@@ -67,7 +67,13 @@ fn find_max_helper(
         True -> #(d, current_pos)
         False -> #(best_val, best_pos)
       }
-      find_max_helper(rest, count - 1, current_pos + 1, new_best_val, new_best_pos)
+      find_max_helper(
+        rest,
+        count - 1,
+        current_pos + 1,
+        new_best_val,
+        new_best_pos,
+      )
     }
   }
 }
